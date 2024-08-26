@@ -1,4 +1,5 @@
-- name: cloud-trail-cloud-watch-logs-enabled
+policies:
+  - name: cloud-trail-cloud-watch-logs-enabled
     resource: aws.cloudtrail
     filters:
       - type: value

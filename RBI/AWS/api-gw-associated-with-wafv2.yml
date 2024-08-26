@@ -1,5 +1,5 @@
 policies:
-  - name: api-gw-associated-with-waf
+  - name: api-gw-associated-with-wafv2
     resource: rest-stage
     filters:
       - type: wafv2-enabled

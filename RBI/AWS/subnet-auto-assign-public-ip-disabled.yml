@@ -5,6 +5,3 @@ policies:
       - type: value
         key: MapPublicIpOnLaunch
         value: true
-    actions:
-      - type: modify
-        MapPublicIpOnLaunch: false
