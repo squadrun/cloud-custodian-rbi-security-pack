@@ -3,5 +3,5 @@ policies:
     resource: rest-stage
     filters:
       - type: value
-        key: client-certificate
+        key: "`client-certificate`"
         value: absent
