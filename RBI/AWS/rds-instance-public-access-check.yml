@@ -1,4 +1,5 @@
-- name: rds-instance-public-access-check
+policies:
+  - name: rds-instance-public-access-check
     resource: rds
     filters:
       - PubliclyAccessible: true
